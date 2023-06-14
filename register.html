@@ -38,24 +38,35 @@
         </nav>
         <a style="text-decoration: none; color: silver;" href="index.html">
             <h1 id="page-header">Keyboard shortcuts</h1>
-            <h2 id="tagline"><i>make your life easier!</i></h2>
+            <h2 id="tagline" ><i>become a contributor!</i></h2>
         </a>
     </header>
     <section>
         <div id="registration">
-            <form id="register" action="https://formdump.codeinstitute.net/" method="post">
-                <label id="email" for="email">Email:</label>
-                <input id="email" name="email" type="email">
-                <label for="username">Username:</label>
-                <input id="username" name="username" type="text">
-                <label for="password1">Password:</label>
-                <input id="password1" name="password1" type="password">
-                <label for="password2">Confirm password:</label>
-                <input id="password2" name="password2" type="password" >
-
-
-                <input class="submit-button" type="Submit" value="Register">
+            <h3 id="reg-intructions">To contribute to this site, register your details here:</h3>
+            <form id="register" action="https://formdump.codeinstitute.net/" method="post" class="ctrl-arrow">
+                <span>
+                    <div>
+                        <label for="email"><i class="fa-solid fa-envelope" style="color: silver"></i> Email:</label>
+                        <input id="email" name="email" type="email" required class="text-input" placeholder="Email Address">
+                    </div>
+                    <div>
+                        <label for="username"><i class="fa-solid fa-user" style="color: silver"></i> Username:</label>
+                        <input id="username" name="username" type="text" required class="text-input" placeholder="Username">
+                    </div>
+                    <div>
+                    <label for="password1"><i class="fa-solid fa-key" style="color: silver"></i> Password:</label>
+                        <input id="password1" name="password1" type="password" required class="text-input" placeholder="Password">
+                    </div>
+                    <div>
+                        <label for="password2"><i class="fa-solid fa-key" style="color: silver"></i> Confirm password:</label>
+                        <input id="password2" name="password2" type="password" required class="text-input" placeholder="Password">
+                    </div>
+                    <input class="submit-button" type="Submit" value="Register">
+                </span>
+                <p id="ctrl-arrow"></p>
             </form>
+            
         </div>
 
     </section>
