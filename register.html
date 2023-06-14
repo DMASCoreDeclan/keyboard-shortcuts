@@ -26,10 +26,10 @@
         <nav id="menu">
             <ul>
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a class="inactive" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a class="inactive" href="register.html">Register</a>
+                    <a class="active" href="register.html">Register</a>
                 </li>
                 <li>
                     <a class="inactive" href="#">not either</a>
@@ -41,12 +41,25 @@
             <h2 id="tagline"><i>make your life easier!</i></h2>
         </a>
     </header>
-    <section id="keyboard-outer">
-        <div id="keyboard-image">
+    <section>
+        <div id="registration">
+            <form id="register" action="https://formdump.codeinstitute.net/" method="post">
+                <label id="email" for="email">Email:</label>
+                <input id="email" name="email" type="email">
+                <label for="username">Username:</label>
+                <input id="username" name="username" type="text">
+                <label for="password1">Password:</label>
+                <input id="password1" name="password1" type="password">
+                <label for="password2">Confirm password:</label>
+                <input id="password2" name="password2" type="password" >
+
+
+                <input class="submit-button" type="Submit" value="Register">
+            </form>
         </div>
+
     </section>
     <section>
-        
 
     </section>
 

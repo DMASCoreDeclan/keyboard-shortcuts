@@ -15,9 +15,10 @@ body {
 #page-header {
     padding: 10px 10px 0px 30px;
     background-color: black;
-    text-align: left; 
+    text-align: left;
     text-transform: capitalize;
 }
+
 #tagline {
     padding-left: 100px;
     background-color: black;
@@ -40,36 +41,52 @@ body {
     background-color: black;
     text-transform: capitalize;
     padding: 20px;
-    
+
 }
 
 #menu li {
     list-style-type: none;
     margin-right: 30px;
-    float: left;      
+    float: left;
 }
 
 #menu a {
     background-color: black;
     color: silver;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 #menu a:hover {
     border-bottom: 1px solid silver;
 }
 
+/* registraion form */
 
+#register {
+    
+    padding: 10px;
+}
 
+#registration {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    }
+
+.submit-button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+}
 
 /* footer */
 footer {
     height: 100%;
-    background-color: black;    
+    background-color: black;
 }
 
 footer ul {
-    text-align: center;    
+    text-align: center;
 }
 
 footer li {
