@@ -6,6 +6,10 @@
     background-color: black;
 }
 
+h1 {
+    width: 50%;
+    display: inline;
+}
 
 
 p {
@@ -114,8 +118,15 @@ body {
 /* registraion form */
 
 #register {
-    
-    padding: 10px;
+    padding top 10px;
+    width: 50%;
+    max-width: 33%;
+    padding: 15px;
+    margin-top: 10%;
+    margin-left: 33%;
+    background-color: black;
+    color: silver;
+    border: 2px solid silver;      
 }
 
 #reg-intructions {
@@ -180,7 +191,6 @@ input[type="email"], input[type="text"], input[type="password"] {
     margin-right: 10%;
     float: right;
     background-position: 20% 10%;
-    
 }
 
 
@@ -207,8 +217,9 @@ input[type="email"], input[type="text"], input[type="password"] {
 /* login */
 
 #login {
-        padding top 10px;
-        width: 33%;
+        padding-top: 10px;
+        width: 50%;
+        max-width: 33%;
         padding: 15px;
         margin-top: 10%;
         margin-left: 10%;
@@ -220,7 +231,7 @@ input[type="email"], input[type="text"], input[type="password"] {
         float:left;
 }
 
-#contribute h4 {
+h4 {
     text-align: center;
 }
 
@@ -288,4 +299,24 @@ footer ul li i {
     to {
         transform: scale(1.1);
     }
+}
+
+/* responsive */
+@media screen and (max-width: 475px) {
+    .home-end {
+        display: none;           
+    }
+    
+    #login {
+        padding-top: 10px;
+
+        width: 75%;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+
+
 }
