@@ -3,7 +3,56 @@
 * {
     margin: 0;
     padding: 0;
-    border-radius: 3px;
+    background-color: black;
+}
+
+p {
+    padding: 10px;
+}
+
+summary {
+    font-weight:700;
+    padding-left: 3px;
+    color: white;
+    margin: 0 auto;
+    background-color: black    
+}
+
+details {
+    height: 5%;
+    width: 75%;
+    padding: 3px;
+    color: white;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+}
+
+summary::marker {
+    content: '+ ';
+    font-size: 1.2em;
+}
+
+details summary {
+    cursor: pointer;
+}
+
+#purpose {
+    text-align: left;
+}
+
+#content {
+    text-align: center;
+}
+#other {
+    text-align: right;
+}
+
+.webtext {
+    color: white;
+    text-align:center;
+    font-size: xx-large;
+    background-color: black;
 }
 
 body {
@@ -122,8 +171,6 @@ body {
 }
 
 #registration {
-    
-    
     font-size: 100%;
     background-color: black;
     text-align: left;
@@ -141,6 +188,7 @@ div label {
     display: block;
     margin-bottom: 10px;
     
+    
 }
 
 span {
@@ -156,18 +204,16 @@ span {
 input[type="email"], input[type="text"], input[type="password"] {
     width: 300px;
     padding: 5px;
-    
+    background-color: white;
     border-radius: 3px;
 }
 
 .ctrl-arrow {
-   
     float: right;
-    height: 700px;
     width: 100%;
-    
+    padding: 10%;
     background: url("../images/control-and-arrows.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     /* display: block; */
@@ -193,7 +239,6 @@ input[type="email"], input[type="text"], input[type="password"] {
 .submit-button:hover {
     background-color: silver;
     color: black;
-    border
 }
 
 /* footer */
@@ -233,6 +278,19 @@ footer ul li i {
     animation-duration: 10s;
     animation-fill-mode: forwards;
 }
+
+/* dummy page */
+
+#dummy-page {
+    margin-top: 25%; 
+    padding: 0;   
+}
+#dummy-page form {
+    text-align: center;
+    padding: 0;
+}
+
+
 
 
 

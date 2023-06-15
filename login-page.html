@@ -26,46 +26,41 @@
         <nav id="menu">
             <ul>
                 <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a class="inactive" href="register.html">Register</a>
-                </li>
-                <li>
-                    <a class="inactive" href="#">not either</a>
+                    <a class="inactive" href="index.html">Home</a>
                 </li>
             </ul>
         </nav>
         <a style="text-decoration: none; color: silver;" href="index.html">
             <h1 id="page-header">Keyboard shortcuts</h1>
-            <h2 id="tagline"><i>make your life easier!</i></h2>
+            <h2 id="tagline"><i>Login to contribute</i></h2>
         </a>
     </header>
     <section>
-        <div>
-            <p class="webtext">WELCOME, Welcome, welcome . . .</p>
+        <div id="login">
+            <h3 id="reg-intructions">Login here:</h3>
+            <form id="login" action="contribute.html" class="ctrl-arrow">
+                <span>
+                    <div>
+                        <label for="email"><i class="fa-solid fa-envelope" style="color: silver"></i> Email:</label>
+                        <input id="email" name="email" type="email" required class="text-input"
+                            placeholder="Email Address">
+                    </div>
+                    <div>
+                        <label for="password1"><i class="fa-solid fa-key" style="color: silver"></i> Password:</label>
+                        <input id="password1" name="password1" type="password" required class="text-input"
+                            placeholder="Password">
+                    </div>
+                    <input class="submit-button" type="Submit" value="Login">
+                </span>
+                <p id="ctrl-arrow"></p>
+            </form>
+
         </div>
-        <div>
-            <details>
-                <summary id="purpose">Purpose</summary>
-                This site was created to demonstrate certain skills as detailed in Project 1 requirements.  This site is not commercial and should be viewed as demonstration of HTML and CSS skills.  
-            </details>
-            <details>
-                <summary id="contents">Content</summary>
-                With the exceptionThis site was created to demonstrate certain skills as detailed in Project 1 requirements.
-            </details>
-            <details>
-                <summary id="other">Other</summary>
-                With the exceptionThis site was created to demonstrate certain skills as detailed in Project 1 requirements.
-            </details>
-        </div>
-    
+
     </section>
-    <section id="keyboard-outer">
-        <div id="keyboard-image">
-        </div>
+    <section>
+
     </section>
-    
 
     <footer>
         <ul>
