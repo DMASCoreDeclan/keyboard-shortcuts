@@ -4,19 +4,22 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
+    box-sizing: border-box;
 }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
+[class*="col-"] {
+    float: left;
+    padding: 15px;
 }
 
-nav ul {
-    display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
+
+
 
 nav ul li{
     margin: auto; 
@@ -26,9 +29,10 @@ nav ul li{
 nav ul li a {
     color: silver;
     text-decoration: none;
-}
+} 
 
 .active {
+    font-weight: 700;
     text-decoration: 1px underline silver;
 }
 
@@ -48,7 +52,7 @@ section {
 section iframe {
     width: 50%;
     margin: 25px;
-    /* margin: 0 auto; */
+    
 }
 
 
@@ -62,38 +66,160 @@ section aside {
 }
 
 /* box to show content area - delete on completion */
-/* #box { */
+/* #box {
     height: 600px;
     width: 90%;
     background-color: white;
     border: 5px solid whitesmoke;
     margin: auto;
-}
+} */
 
 
 /* footer */
-footer {
+/* footer {
     display: flex;
     justify-content: space-around;
     margin: 15px;
     align-items: center
-}
+} */
+
+/* footer {
+    float: left;
+} */
 
 footer ul{ 
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
     list-style-type: none;
+    text-align: center;
 }
 
 
 /* Media Queries */
-@media only screen and (max-width: 500px) {
-    nav ul {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: end;
+/* For mobile phones: */
+@media only screen and (max-width: 320px) {
+        [class*="col-"] {
+        width: 100%;
+        }
+
+        [class*="col-s-"] {
+            width: 100%;
+            padding: 2px;
+        }
+        nav {
+            font-size: 100%;
+        }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    [class*="col-s-"] {
+            width: 100%;
+            padding: 25px;
+        }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .no-display {
+        display: none;
     }
 }
