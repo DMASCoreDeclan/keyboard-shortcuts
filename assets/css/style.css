@@ -1,20 +1,42 @@
 @import url('https: //fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    color: #72a4d4;
+    border: 1px solid black;
+}
+
+.fafa {
+    background-color: #72a4d4;
+    color: white;
+}
+
+.nav-menu, .nav-menu li, footer, footer li {
+    background-color: #72a4d4;
+    color: white;
+}
+.active {
+    text-decoration: 1px underline;
+}
+
+.nav-menu li:hover {
+    font-weight: 700;
+
+}
+
+.nav-menu h1:hover {
+    font-weight: 100;
+}
+
+.nav-menu h1 {
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+footer *, nav * {
+    text-decoration: none;
+    list-style: none;
     text-align: center;
-    margin: auto;
 }
-
-[class*="col-"] {
-    float: left;
-    padding: 5px;
-}
-
 
 .row::after {
     content: "";
@@ -22,128 +44,76 @@
     display: table;
 }
 
-nav {
-    margin-bottom: 10px;
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    padding-top: 0px;
 }
 
-nav ul li{
-    margin: auto; 
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.menu ul {
     list-style-type: none;
-}
-
-nav ul li a {
-    color: #72a4d4;
-    text-decoration: none;
-} 
-
-iframe {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-}
-
-.active {
-    font-weight: 700;
-    text-decoration: underline #72a4d4;
-}
-
-nav ul li a:hover {
-    font-weight: 700;
-    text-decoration: underline;
-}
-
-label {
-    text-align: right;
-}
-
-/* footer */
-footer {
-    margin-top: 10px;
-} 
-
-footer ul{ 
-    list-style-type: none;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
 
-/* Media Queries */
-/* For mobile phones: */
-@media only screen and (min-width: 320px) {
-        /* [class*="col-"] {
-        width: 100%;
-        } */
+.menu li:hover {
+    background-color: #0099cc;
+}
 
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
 
-        /* [class*="col-s-"] {
-            width: 50%;
-            padding: 2px;
-        } */
-
-           .col-s-1 {
-               width: 8.33%;
-           }
-    
-           .col-s-2 {
-               width: 16.66%;
-           }
-    
-           .col-s-3 {
-               width: 25%;
-           }
-    
-           .col-s-4 {
-               width: 33.33%;
-           }
-    
-           .col-s-5 {
-               width: 41.66%;
-           }
-    
-           .col-s-6 {
-               width: 50%;
-           }
-    
-           .col-s-7 {
-               width: 58.33%;
-           }
-    
-           .col-s-8 {
-               width: 66.66%;
-           }
-    
-           .col-s-9 {
-               width: 75%;
-           }
-    
-           .col-s-10 {
-               width: 83.33%;
-           }
-    
-           .col-s-11 {
-               width: 91.66%;
-           }
-    
-           .col-s-12 {
-               width: 100%;
-           }
-
-        nav {
-            font-size: 100%;
-        }
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
 }
 
 
 
 
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    padding: 5px 0;
+}
+
+[class*="col-"] ul {
+    padding: 0px;
+}
+
 @media only screen and (min-width: 600px) {
 
-    /* For tablets: */
-    /* [class*="col-s-"] {
-            width: 100%;
-        } */
-
+    For tablets:
     .col-s-1 {
         width: 8.33%;
     }
@@ -244,18 +214,3 @@ footer ul{
         width: 100%;
     }
 }
-
-@media only screen and (min-width: 923px) {
-    .no-display {
-        display: none;
-    }
-}
-
-
-
-Mobile portrait <320px
-Mobile portrait ≥320px 
-Mobile ladscape ≥576px 
-Tablet portrait ≥768px 
-Tablet ladscape ≥992px 
-Laptop ≥1200px Desktop and above ≥1400px
