@@ -22,52 +22,54 @@
 
 <body>
     <header>
-
-        <nav id="menu">
+        <nav class="row">
             <a style="text-decoration: none; color: silver;" href="index.html">
-                <h1 id="page-header"><i class="fa-solid fa-keyboard fa-lg" style="color: silver;"></i> Keyboard
+                <h1 class="col-4 col-s-4"><i class="fa-solid fa-keyboard fa-lg" style="color: color: #72a4d4;;"></i>
+                    Keyboard
                     Shortcuts</h1>
-                <h2 id="tagline"><i>make your life easier!</i></h2>
             </a>
-
-            <ul>
-                <li>
+            <ul class="col-8 col-s-8">
+                <li class="col-2 col-s-2">
                     <a class="inactive" href="index.html">Home</a>
                 </li>
-                <li>
+                <li class="col-2 col-s-2">
                     <a class="active" href="register.html">Register</a>
                 </li>
-                <li>
+                <!-- <li class="col-2 col-s-2">
                     <a class="inactive" href="login-page.html">Login</a>
+                </li> -->
+                <li class="col-2 col-s-2">
+                    <a class="inactive" href="references.html">References</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section>
-        <div id="registration">
-            <h3 id="reg-intructions">To contribute to this site, register your details here. </h3>
-            <h3 id="reg-intructions">Once you Register, check you inbox to verify your details and login.   </h3>
+        <div id="registration" class="col-12 col-s-12">
+            <h3 id="reg-intructions" class="col-12 col-s-12">To contribute to this site, register your details here. </h3>
+            <h3 id="reg-intructions" class="col-12 col-s-12">Once you Register, check you inbox to verify your details and login.   </h3>
             <form id="register" action="dummy-page.html">
-                <span>
-                    <h4>Register here:</h3>
-                    <div>
-                        <label for="email"><i class="fa-solid fa-envelope" style="color: silver"></i> Email:</label>
-                        <input id="email" name="email" type="email" required class="text-input" placeholder="Email Address">
+                <span class="col-12 col-s-12">
+                    <h4 class="col-12 col-s-12">Register here:</h3>
+                    <div class="col-12 col-s-12">
+                        <label for="email" class="col-4 col-s-4"><i class="fa-solid fa-envelope" style="color: color: #72a4d4;"></i> Email:</label>
+                        <input id="email" class="col-7 col-s-7" name="email" type="email" required class="text-input" placeholder="Email Address">
                     </div>
                     <div>
-                        <label for="username"><i class="fa-solid fa-user" style="color: silver"></i> Username:</label>
-                        <input id="username" name="username" type="text" required class="text-input" placeholder="Username">
+                        <label for="username" class="col-4 col-s-4"><i class="fa-solid fa-user" style="color: color: #72a4d4;"></i> Username:</label>
+                        <input id="username" class="col-7 col-s-7"name="username" type="text" required class="text-input" placeholder="Username">
                     </div>
                     <div>
-                    <label for="password1"><i class="fa-solid fa-key" style="color: silver"></i> Password:</label>
-                        <input id="password1" name="password1" type="password" required class="text-input" placeholder="Password">
+                    <label for="password1" class="col-4 col-s-4"><i class="fa-solid fa-key" style="color: color: #72a4d4;"></i> Password:</label>
+                        <input id="password1" class="col-7 col-s-7" name="password1" type="password" required class="text-input" placeholder="Password">
                     </div>
                     <div>
-                        <label for="password2"><i class="fa-solid fa-key" style="color: silver"></i> Confirm password:</label>
-                        <input id="password2" name="password2" type="password" required class="text-input" placeholder="Password">
-                    </div>
-                    <input class="submit-button" type="Submit" value="Register">
+                        <label for="password2" class="col-4 col-s-4"><i class="fa-solid fa-key" style="color: color: #72a4d4;"></i> Confirm password:</label>
+                        <input id="password2" class="col-7 col-s-7" name="password2" type="password" required class="text-input" placeholder="Password">
+                    </div>                        
                 </span>
+                <span class="col-6 col-s-6"></span>
+                <input class="submit-button col-2 col-s-2" type="Submit" value="Register">
                 
             </form>
             <div class="end-space-del-down-arrow"></div>
@@ -78,31 +80,31 @@
 
     </section>
 
-    <footer>
-        <ul>
-            <li>
+    <footer class="col-12 col-s-12">
+        <ul class="col-12 col-s-12">
+            <li class="col-3 col-s-3">
                 <a href="https://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new page)"><i class="fa-brands fa-facebook-f fa-xl"
-                        style="color: silver;"></i></a>
+                        style="color: 72a4d4;"></i></a>
             </li>
-            <li>
+            <li class="col-3 col-s-3">
                 <a href="https://www.linkedin.com" target="_blank" rel="noopener"
                     aria-label="Visit our LinkedIn page (opens in a new page)"><i class="fa-brands fa-linkedin-in fa-xl"
-                        style="color: silver;"></i></a>
+                        style="color: 72a4d4;"></i></a>
             </li>
-            <li>
+            <li class="col-3 col-s-3">
                 <a href="https://www.youtube.com" target="_blank" rel="noopener"
                     aria-label="Visit our Youtube page (opens in a new page)"><i class="fa-brands fa-youtube fa-xl"
-                        style="color: silver;"></i></a>
+                        style="color: 72a4d4;"></i></a>
             </li>
-            <li>
+            <li class="col-3 col-s-3">
                 <a href="https://www.instagram.com" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new page)"><i class="fa-brands fa-instagram fa-xl"
-                        style="color: silver"></i></a>
+                        style="color: 72a4d4"></i></a>
             </li>
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/dbfee398b4.js" crossorigin="anonymous"></script>
-</body>
-
-</html>
+    </body>
+    
+    </html>
