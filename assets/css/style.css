@@ -2,9 +2,14 @@
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid black; */
     
-      
+    /* border: 1px solid black;   */
+}
+
+
+
+html, body {
+    height: 100%;
 }
 
 h2, h3, h4 {
@@ -357,4 +362,8 @@ input[type*=submit] {
     .col-l-12 {
         width: 100%;
     }
+
+        ul {
+            font-size: large;
+        }
 }
