@@ -40,7 +40,10 @@ li:hover {
     font-weight: 700;
 }
 
-nav, footer, nav li, footer li{
+nav,
+footer,
+nav li,
+footer li {
     background-color: #D852A6;
     padding: 10px;
     text-align: center;
@@ -90,7 +93,92 @@ nav ul li {
 
 }
 
- /* Media Queries */
+#ctrl-b {
+    background-image: url(../images/ctrl+b.png);
+}
+
+.shortcut-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 330px;
+    border-radius: 24px;
+    border: 1px solid #113548;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    position: relative;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.shortcut-card:nth-of-type(1n) h3 {
+    color: #D852A6;
+}
+
+div.shortcut-card:nth-of-type(1n) {
+    border: 2px solid #abd43b;
+}
+
+.shortcut-card:nth-of-type(2n) h3 {
+    color: #abd43b;
+}
+
+div.shortcut-card:nth-of-type(2n) {
+    border: 2px solid #D852A6;
+}
+
+
+.shortcut-card-img {
+    width: 100%;
+    height: 180px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.shortcut-card h3 {
+    text-align: center;
+}
+
+#shortcuts {
+    padding-bottom: 40px;
+}
+
+.shortcut-container {
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.add-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header {
+    margin: 10px 0;
+    color: #113548;
+    text-align: center;
+    font-size: 30px;
+    font-family: Titillium, sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.shortcuts-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #FFF;
+}
+
+/* Media Queries */
 @media only screen and (min-width: 104px) {
     #home-page {
         margin-top: 255px;
@@ -140,6 +228,7 @@ nav ul li {
     #home-page {
         margin-top: 124px;
     }
+
     #spacebar {
         font-size: large;
         position: absolute;
@@ -154,6 +243,7 @@ nav ul li {
     #home-page {
         margin-top: 85.6px;
     }
+
     #spacebar {
         font-size: x-large;
         position: absolute;
@@ -178,5 +268,5 @@ nav ul li {
         transform: translate(-30%, -65%);
         color: #abd43b;
     }
-    
+
 }
