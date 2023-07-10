@@ -274,7 +274,7 @@ table {
 }
 
 table td,
-table th {
+table th, table kbd {
     border: 1px solid #ccc;
     padding: 8px;
 }
@@ -287,10 +287,13 @@ table {
     align-items: center;
 }
 
+td:nth-of-type(odd) {
+    text-align: center;
+}
+
 table tr {
     display: flex;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 table td,
