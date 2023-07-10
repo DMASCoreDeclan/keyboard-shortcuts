@@ -1,12 +1,33 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Am I Responsive](assets/images/am-i-responsive.png)
 
 Welcome,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is my Code Institute Project 1 assignment.  This site has 5 pages:
+index.html, register,html, login-page.html, dummy-page.html and references.html.  Only 4 of the pages are visible from the Nav Bar.  dummy-page.html, simulates someone leaving the site after REGISTERING and clicking on an email verification link to be brought back to the site to LOGIN.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+I wanted the site to be a bit whimsical and playful in terms of colors and I wanted to demonstrate my ability to make the site responsive.
 
-## Codeanywhere Reminders
+Features that I would like to have but am currently unable to code are the ability for someone to contribute a Shortcut Tip through a form that would be displayed on the HOME page in the format of the current Home Page.
+
+What I learned from this project is that DESIGN is the key to rapid development.  Once you know what you're trying to achieve, its much easier to code the HTML and CSS.  I also learned, keep it simple.
+
+The last update to this file was: **June 10th, 2023**
+
+## Keyboard-Shortcuts Validations:
+
+
+
+The site URL is: https://dmascoredeclan.github.io/keyboard-shortcuts/index.html
+
+
+
+
+
+
+
+
+
+
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
