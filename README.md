@@ -10,11 +10,11 @@ What I learned from this project is that DESIGN is the key to rapid development.
 
 The last update to this file was: **June 10th, 2023**
 
-![Am I Responsive](assets/images/am-i-responsive.png)
+![Am I Responsive](/.devcontainer/README-images/am-i-responsive.png)
 
 ## Keyboard-Shortcuts Validations:
 ### Lighthouse Score:
-![Lighthouse Score](assets/images/lighthouse-score.png)
+![Lighthouse Score](/.devcontainer/README-images/lighthouse-score.png)
 
 ## Accessibility improvement
 The color pickers support these colors working together and were color picked from the original HERO Image, I decided to keep with the colors picked by a professional, ratherthan changing it.
@@ -22,22 +22,22 @@ The color pickers support these colors working together and were color picked fr
 ### HTML Validation Results:
 This is my Code Institute Project 1 assignment.  This sites 5 pages have been validated with (https://validator.w3.org/).  
 Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/index.html) 
-![Index](assets/images/index-validation.png)
+![Index](/.devcontainer/README-images/index-validation.png)
 
 Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/register.html) 
-![register](assets/images/register-validation.png)
+![register](/.devcontainer/README-images/register-validation.png)
 
 Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/login-page.html) 
-![login-page](assets/images/login-page-validation.png)
+![login-page](/.devcontainer/README-images/login-page-validation.png)
 
 Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/dummy-page.html) 
-![dummy-page](assets/images/dummy-page-validation.png)
+![dummy-page](/.devcontainer/README-images/dummy-page-validation.png)
 
 Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/references.html) 
-![References](assets/images/references-validation.png)
+![References](/.devcontainer/README-images/references-validation.png)
 
 ### CSS Validation Results:
-Here are the results for the CSS Validation: ![CSS](assets/images/css-validation.png)
+Here are the results for the CSS Validation: ![CSS](/.devcontainer/README-images/css-validation.png)
 
 ## Keyboard-Shortcuts Features:
 This site has a home page that gives a taste of they types of screenshots that are helpful.  However, it encourages you to Contribute by having a Register and a Login page.  Features that I would like to have but am currently unable to code are the ability for someone to contribute a Shortcut Tip through a form that would be displayed on the HOME page in the format of the current Home Page.
