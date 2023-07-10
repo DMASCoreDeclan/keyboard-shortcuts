@@ -1,8 +1,8 @@
-![Am I Responsive](assets/images/am-i-responsive.png)
+Keyboard-Shortcuts is a site for people who want to learn ways of becoming faster coders by knowing the ShortcutKeys instead of using a Mouse!  
 
 The site URL is: https://dmascoredeclan.github.io/keyboard-shortcuts/index.html
 
-Only 4 of the pages are visible from the Nav Bar.  dummy-page.html, simulates someone leaving the site after REGISTERING and clicking on an email verification link to be brought back to the site to LOGIN.
+The site has 5 pages.  Only 4 of the pages are visible from the Nav Bar.  dummy-page.html, simulates someone leaving the site after REGISTERING and clicking on an email verification link to be brought back to the site to LOGIN.
 
 I wanted the site to be a bit whimsical and playful in terms of colors and I wanted to demonstrate my ability to make the site responsive.
 
@@ -11,6 +11,9 @@ Features that I would like to have but am currently unable to code are the abili
 What I learned from this project is that DESIGN is the key to rapid development.  Once you know what you're trying to achieve, its much easier to code the HTML and CSS.  I also learned, keep it simple.
 
 The last update to this file was: **June 10th, 2023**
+
+![Am I Responsive](assets/images/am-i-responsive.png)
+
 
 ## Keyboard-Shortcuts Validations:
 
