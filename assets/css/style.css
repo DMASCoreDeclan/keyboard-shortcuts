@@ -243,16 +243,6 @@ div.shortcut-card:nth-of-type(3n+3) {
     display: block;
 }
 
-.bottom {
-    margin-bottom: 70px;
-}
-
-
-input {
-    border: 1px solid #d852a6;
-    border-radius: 5px;
-}
-
 kbd {
     background-color: #eee;
     border-radius: 3px;
@@ -266,6 +256,60 @@ kbd {
     padding: 2px 4px;
     white-space: nowrap;
 }
+
+.bottom {
+    margin-bottom: 70px;
+}
+
+
+input {
+    border: 1px solid #d852a6;
+    border-radius: 5px;
+}
+
+/* Default styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Flexbox styles */
+table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr {
+    display: flex;
+    width: 100%;
+    
+}
+
+table td,
+table th {
+    flex-basis: 50%;
+}
+
+
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+
+    table td,
+    table th {
+        flex-basis: 100%;
+    }
+}
+
+
 
 #dummy-page h2 {
     text-align: center;
