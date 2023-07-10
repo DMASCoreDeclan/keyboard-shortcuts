@@ -82,7 +82,10 @@ nav ul li {
     background-position: center;
     background-size: cover;
     background-image: url("../images/multicolored-keyboard.png");
+}
 
+#register-page h2 {
+    font-size: large;
 }
 
 #alt-tab {
@@ -213,95 +216,124 @@ div.shortcut-card:nth-of-type(3n+3) {
     background: #FFF;
 }
 
+.reg-form {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+    width: 250px;
+    height: 330px;
+    border-radius: 24px;
+    border: 1px solid #D852A6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    align-self: right;
+}
+
+.reg-form div {
+    margin: 20px
+}
+
+.submit-button {
+    color:#abd43b;
+    background-color: #D852A6;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+.bottom {
+    margin-bottom: 70px;
+}
+
+
+input {
+    border: 1px solid #d852a6;
+    border-radius: 5px;
+}
+
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+
+#dummy-page h2 {
+    text-align: center;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 104px) {
-    #home-page {
+    #home-page,
+        #register-page,
+        #dummy-page,
+            .top{
         margin-top: 255px;
     }
 
-    #spacebar {
-        font-size: x-small;
-        position: absolute;
-        top: 95%;
-        left: 40%;
-        transform: translate(-30%, -65%);
-        color: #abd43b;
-    }
+    
 }
 
 @media only screen and (min-width: 170.4px) {
-    #home-page {
+    #home-page,
+        #register-page,
+        #dummy-page,
+            .top{
         margin-top: 228px;
     }
 
-    #spacebar {
-        font-size: small;
-        position: absolute;
-        top: 90%;
-        left: 40%;
-        transform: translate(-30%, -65%);
-        color: #abd43b;
-    }
+    
 }
 
 @media only screen and (min-width: 260px) {
-    #home-page {
+    #home-page,
+        #register-page,
+        #dummy-page,
+            .top{
         margin-top: 151.2px;
     }
 
-    #spacebar {
-        font-size: medium;
-        position: absolute;
-        top: 82%;
-        left: 40%;
-        transform: translate(-30%, -65%);
-        color: #abd43b;
-    }
+    
 }
 
 @media only screen and (min-width: 291px) {
-    #home-page {
+    #home-page,
+        #register-page,
+        #dummy-page,
+            .top{
         margin-top: 124px;
     }
 
-    #spacebar {
-        font-size: large;
-        position: absolute;
-        top: 78%;
-        left: 40%;
-        transform: translate(-30%, -65%);
-        color: #abd43b;
-    }
+    
 }
 
 @media only screen and (min-width: 500px) {
-    #home-page {
+    #home-page,
+        #register-page,
+        #dummy-page,
+            .top{
         margin-top: 85.6px;
     }
 
-    #spacebar {
-        font-size: x-large;
-        position: absolute;
-        top: 73%;
-        left: 35%;
-        transform: translate(-30%, -65%);
-        color: #abd43b;
-    }
 
 }
 
 @media only screen and (min-width: 770px) {
-    #home-page {
+    #home-page,
+        #register-page,
+        #dummy-page, .top {
         margin-top: 58.4px;
     }
 
-    #spacebar {
-        font-size: xx-large;
-        position: absolute;
-        top: 70%;
-        left: 40%;
-        transform: translate(-30%, -65%);
-        color: #abd43b;
-    }
+    
 
 }
