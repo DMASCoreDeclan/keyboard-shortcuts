@@ -14,9 +14,12 @@ The last update to this file was: **June 10th, 2023**
 
 ![Am I Responsive](assets/images/am-i-responsive.png)
 
-
 ## Keyboard-Shortcuts Validations:
 
+### Lighthouse Score:
+![Lighthouse Score](assets/images/lighthouse-score.png)
+
+### HTML Validation Results:
 This is my Code Institute Project 1 assignment.  This sites 5 pages have been validated with (https://validator.w3.org/).  
 Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/index.html) 
 ![Index](assets/images/index-validation.png)
@@ -33,6 +36,7 @@ Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcu
 Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/references.html) 
 ![References](assets/images/references-validation.png)
 
+### CSS Validation Results:
 Here are the results for the CSS Validation: ![CSS](assets/images/css-validation.png)
 
 
