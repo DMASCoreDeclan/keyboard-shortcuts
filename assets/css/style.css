@@ -295,8 +295,6 @@ table th {
     flex-basis: 50%;
 }
 
-
-
 /* Media query for screens smaller than 600px */
 @media (max-width: 600px) {
 
@@ -305,8 +303,6 @@ table th {
         flex-basis: 100%;
     }
 }
-
-
 
 #dummy-page h2 {
     text-align: center;
@@ -319,9 +315,7 @@ table th {
         #dummy-page,
             .top{
         margin-top: 255px;
-    }
-
-    
+    }    
 }
 
 @media only screen and (min-width: 170.4px) {
@@ -330,9 +324,7 @@ table th {
         #dummy-page,
             .top{
         margin-top: 228px;
-    }
-
-    
+    }   
 }
 
 @media only screen and (min-width: 260px) {
@@ -341,9 +333,7 @@ table th {
         #dummy-page,
             .top{
         margin-top: 151.2px;
-    }
-
-    
+    }  
 }
 
 @media only screen and (min-width: 291px) {
@@ -352,9 +342,7 @@ table th {
         #dummy-page,
             .top{
         margin-top: 124px;
-    }
-
-    
+    }  
 }
 
 @media only screen and (min-width: 500px) {
@@ -364,8 +352,6 @@ table th {
             .top{
         margin-top: 85.6px;
     }
-
-
 }
 
 @media only screen and (min-width: 770px) {
@@ -374,7 +360,4 @@ table th {
         #dummy-page, .top {
         margin-top: 58.4px;
     }
-
-    
-
 }
