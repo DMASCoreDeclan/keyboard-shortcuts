@@ -8,36 +8,63 @@ I wanted the site to be a bit whimsical and playful in terms of colors and I wan
 
 What I learned from this project is that DESIGN is the key to rapid development.  Once you know what you're trying to achieve, its much easier to code the HTML and CSS.  I also learned, keep it simple.
 
-The last update to this file was: **June 10th, 2023**
+The last update to this file was: **June 11th, 2023**
 
-![Am I Responsive](/.devcontainer/README-images/am-i-responsive.png)
+![Am I Responsive](/.devcontainer/docs/README-images/kbs-am-i-responsive.png)
 
 ## Keyboard-Shortcuts Validations:
-### Lighthouse Score:
-![Lighthouse Score](/.devcontainer/README-images/lighthouse-score.png)
+<details> 
+<summary>Lighthouse Score: </summary>  
+
+![Lighthouse Score](/.devcontainer/docs/README-images/kbs-lighthouse-score.png) 
+</details> 
+
 
 ## Accessibility improvement
 The color pickers support these colors working together and were color picked from the original HERO Image, I decided to keep with the colors picked by a professional, ratherthan changing it.
 
 ### HTML Validation Results:
 This is my Code Institute Project 1 assignment.  This sites 5 pages have been validated with (https://validator.w3.org/).  
-Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/index.html) 
-![Index](/.devcontainer/README-images/index-validation.png)
 
-Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/register.html) 
-![register](/.devcontainer/README-images/register-validation.png)
+<details> 
+<summary>index.html</summary>  
 
-Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/login-page.html) 
-![login-page](/.devcontainer/README-images/login-page-validation.png)
+![Index Score](/.devcontainer/docs/README-images/kbs-index-validation.png) 
+</details> 
 
-Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/dummy-page.html) 
-![dummy-page](/.devcontainer/README-images/dummy-page-validation.png)
 
-Here are the results for the: (https://dmascoredeclan.github.io/keyboard-shortcuts/references.html) 
-![References](/.devcontainer/README-images/references-validation.png)
+<details>
+<summary>register.html</summary>
+
+![register](/.devcontainer/docs/README-images/kbs-register-validation.png)
+</details>
+
+<details>
+<summary>login-page.html</summary>
+
+![login-page](/.devcontainer/docs/README-images/kbs-login-page-validation.png)
+</details>
+
+<details>
+<summary>dummy-page.html</summary>
+
+![dummy-page](/.devcontainer/docs/README-images/kbs-dummy-page-validation.png)
+</details>
+
+<details>
+<summary>references.html</summary>
+
 
 ### CSS Validation Results:
-Here are the results for the CSS Validation: ![CSS](/.devcontainer/README-images/css-validation.png)
+
+Here are the results for the CSS Validation: 
+
+![CSS](/.devcontainer/docs/README-images/kbs-css-validation.png)
+</details>
+
+<details>
+<summary>CSS</summary>
+</details>
 
 ## Keyboard-Shortcuts Features:
 This site has a home page that gives a taste of they types of screenshots that are helpful.  However, it encourages you to Contribute by having a Register and a Login page.  Features that I would like to have but am currently unable to code are the ability for someone to contribute a Shortcut Tip through a form that would be displayed on the HOME page in the format of the current Home Page.
