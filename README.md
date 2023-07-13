@@ -7,7 +7,7 @@ The live link can be found here - [Keyboard Shortcuts]( https://dmascoredeclan.g
 The site has 5 pages.  Only 4 of the pages are visible from the Nav Bar.  
 dummy-page.html, simulates someone leaving the site after REGISTERING and clicking on an email verification link to be brought back to the site to LOGIN.
 
-I wanted the site to be a bit whimsical and playful in terms of colors and I wanted to demonstrate my ability to make the site responsive.
+I wanted the site to be a bit whimsical and playful in terms of colours and I wanted to demonstrate my ability to make the site responsive.
 
 What I learned from this project is that DESIGN is the key to rapid development.  Once you know what you're trying to achieve, its much easier to code the HTML and CSS.  I also learned, keep it simple.
 
@@ -16,7 +16,7 @@ The last update to this file was: **June 12th, 2023**
 ## Site Owner Goals 
 - To provide the user with information about how to use static Keyboard Shortcuts instead of using a Mouse and Screen. 
 - To provide the user with clear instructions on how to complete learn and use shortcuts while typing/programming
-- To create a community that contributed to the body of knowledge
+- To create a community that contributes to the body of knowledge
 
 ## User Stories
 ### First time user
@@ -66,7 +66,7 @@ This site has a home page that gives a taste of they types of screenshots that a
 
  - The fully responsive navigation bar includes links to the Logo, Home, Register, Login and Shortcuts on separate pages.
  - All pages have a Fixed Nav-Bar and Footer.  The background space between the top and bottom remains white with the exception of the Hero image.
- - The current page is denoted by emphasising the active portion of the Nav-Var
+ - The current page is denoted by emphasising the active portion of the Nav-Bar
  - When hovering over subsequent Page choices, that page link underlines and becomes bold
 
 ### The Landing Page Image
@@ -112,7 +112,7 @@ This site has a home page that gives a taste of they types of screenshots that a
 
 
 ## Accessibility improvement
-The color pickers support these colors working together and were color picked from the original HERO Keyboard Image.  
+The colour pickers support these colours working together and were colour picked from the original HERO Keyboard Image.  
 
 ### HTML Validation Results:
 This is my Code Institute Project 1 assignment.  This sites 5 pages have been validated with (https://validator.w3.org/).  
