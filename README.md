@@ -145,16 +145,18 @@ This is my Code Institute Project 1 assignment.  This sites 5 pages have been va
 <details>
 <summary>references.html</summary>
 
+![references](/.devcontainer/docs/README-images/kbs-references-validation.png)
+</details>
+
 
 ### CSS Validation Results:
 
 Here are the results for the CSS Validation: 
 
-![CSS](/.devcontainer/docs/README-images/kbs-css-validation.png)
-</details>
-
 <details>
 <summary>CSS</summary>
+
+![CSS](/.devcontainer/docs/README-images/kbs-css-validation.png)
 </details>
 
 
