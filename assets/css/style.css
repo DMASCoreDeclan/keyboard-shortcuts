@@ -59,11 +59,11 @@ $key-width: 46px; */
 
 
 /* taken from https://codepen.io/giumagnani/pen/jBNJKw */
-.keys {
+/* .keys { */
   /* width: 800px; */
   /* display: block; */
   /* margin: 35vh auto; */
-}
+/* } */
 
 /* taken from https://codepen.io/giumagnani/pen/jBNJKw */
 .key__button {
@@ -310,7 +310,7 @@ div.shortcut-card:nth-of-type(3n+3) {
     width: 250px;
     height: 330px;
     border-radius: 24px;
-    border: 1px solid #D852A6;
+    border: 1px solid;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
 }
@@ -320,8 +320,8 @@ div.shortcut-card:nth-of-type(3n+3) {
 }
 
 .submit-button {
-    color:#abd43b;
-    background-color: #D852A6;
+    color: #2E343B ;
+    background-color: #04c6fc;
     padding: 5px;
     border-radius: 5px;
     margin: 0 auto;
@@ -347,7 +347,8 @@ kbd {
 }
 
 input {
-    border: 1px solid #d852a6;
+    border: 1px solid;
+    height: 30px;
     border-radius: 5px;
 }
 
