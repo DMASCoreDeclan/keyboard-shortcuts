@@ -9,7 +9,7 @@
 body {
     font-family: Titillium, sans-serif;
     font-weight: 300;
-    background-color: #2E343B;
+    background-color: #292B38;
     color: #04c6fc;
 }
 div p {
@@ -62,7 +62,7 @@ footer li:hover {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    background: -webkit-linear-gradient(top, #17181c 0%, #2e343b 99%);
+    background: -webkit-linear-gradient(top, #17181c 0%, #292B38 99%);
     font-family: sans-serif;
     display: inline-block;
   }
@@ -79,7 +79,7 @@ footer li:hover {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    background: -webkit-linear-gradient(top, #17181c 0%, #2e343b 99%);
+    background: -webkit-linear-gradient(top, #17181c 0%, #292B38 99%);
     font-family: sans-serif;
     display: inline-block;
   }
@@ -192,7 +192,7 @@ nav ul li {
 }
 
 .section-header {
-    background-color: #2E343B;
+    background-color: #292B38;
     margin: 10px 0;
     color: #04c6fc;
     text-align: center;
@@ -207,7 +207,7 @@ nav ul li {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background: #2E343B;
+    background: #292B38;
 }
 
 .reg-form {
@@ -229,7 +229,7 @@ nav ul li {
 }
 
 .submit-button {
-    color: #2E343B ;
+    color: #292B38 ;
     background-color: #04c6fc;
     padding: 5px;
     border-radius: 5px;
