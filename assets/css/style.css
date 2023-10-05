@@ -45,6 +45,70 @@ footer li:hover {
     transform: scale(1.5);
 }
 
+/* $key-quantity: 10;
+$key-width: 46px; */
+
+/* body {
+  background: -webkit-linear-gradient(top, #fff 0%, #f2f2f2 25%, rgba(#444, 0.3) 100%);
+  min-height: 100vh;
+} */
+
+
+/* taken from https://codepen.io/giumagnani/pen/jBNJKw */
+.keys {
+  /* width: 800px; */
+  /* display: block; */
+  /* margin: 35vh auto; */
+}
+
+/* taken from https://codepen.io/giumagnani/pen/jBNJKw */
+.key__button {
+    box-sizing: border-box;
+    line-height: 80px;
+    font-size: 35px;
+    text-align: center;
+    width: 110px;
+    /* color: #04c6fc; */
+    /* cursor: pointer; */
+    margin: 0 8px;
+    height: 80px;
+    border-color: #17181c;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #17181c 0%, #2e343b 99%);
+    font-family: sans-serif;
+    display: inline-block;
+  }
+
+  .widekey__button {
+    box-sizing: border-box;
+    line-height: 80px;
+    font-size: 35px;
+    text-align: center;
+    width: 110px;
+    /* color: #04c6fc; */
+    /* cursor: pointer; */
+    margin: 0 8px;
+    height: 80px;
+    border-color: #17181c;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #17181c 0%, #2e343b 99%);
+    font-family: sans-serif;
+    display: inline-block;
+  }
+
+.key__addition {
+    /* box-sizing: border-box; */
+    line-height: 40px;
+    font-size: 45px;
+}
+
+
+
+
 .nav-flex {
     display: flex;
     justify-content: space-around;
@@ -78,7 +142,7 @@ nav ul li {
 
 #home-page {
     width: 100%;
-    min-height: 498px;
+    min-height: 555px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

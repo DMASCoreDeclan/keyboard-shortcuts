@@ -180,6 +180,7 @@ There are no remaining bugs as far as I can identify.  Bugs that arose throughou
 - [Google Fonts](https://fonts.google.com/)
 - [W3Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
+- [CSS Keyboard Buttons](https://codepen.io/giumagnani/pen/jBNJKw)
 
 ### Acknowledgments
 My mentor Antonio for his support and advice.
