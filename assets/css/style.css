@@ -49,31 +49,13 @@ footer li:hover {
     transform: scale(1.5);
 }
 
-/* $key-quantity: 10;
-$key-width: 46px; */
-
-/* body {
-  background: -webkit-linear-gradient(top, #fff 0%, #f2f2f2 25%, rgba(#444, 0.3) 100%);
-  min-height: 100vh;
-} */
-
-
 /* taken from https://codepen.io/giumagnani/pen/jBNJKw */
-/* .keys { */
-  /* width: 800px; */
-  /* display: block; */
-  /* margin: 35vh auto; */
-/* } */
-
-/* taken from https://codepen.io/giumagnani/pen/jBNJKw */
-.key__button {
+.key-button {
     box-sizing: border-box;
     line-height: 80px;
     font-size: 35px;
     text-align: center;
     width: 80px;
-    /* color: #04c6fc; */
-    /* cursor: pointer; */
     margin: 0 8px;
     height: 80px;
     border-color: #ffffff;
@@ -85,7 +67,7 @@ $key-width: 46px; */
     display: inline-block;
   }
 
-  .widekey__button {
+  .widekey-button {
     box-sizing: border-box;
     line-height: 80px;
     font-size: 35px;
@@ -102,8 +84,7 @@ $key-width: 46px; */
     display: inline-block;
   }
 
-.key__addition {
-    /* box-sizing: border-box; */
+.key-addition {
     line-height: 40px;
     font-size: 45px;
 }
@@ -111,7 +92,6 @@ $key-width: 46px; */
 .center {
     text-align: center;
   }
-
 
 .nav-flex {
     display: flex;
@@ -136,7 +116,6 @@ $key-width: 46px; */
 
 .logo {
     flex-grow: 1;
-
 }
 
 nav ul li {
@@ -157,34 +136,6 @@ nav ul li {
     font-size: large;
 }
 
-/* #alt-tab {
-    background-image: url(../images/alt+tab.png);
-}
-
-#ctrl-b {
-    background-image: url(../images/ctrl+b.png);
-}
-
-#ctrl-c {
-    background-image: url(../images/ctrl+c.png);
-}
-
-#ctrl-n {
-    background-image: url(../images/ctrl+n.png);
-}
-
-#ctrl-p {
-    background-image: url(../images/ctrl+p.png);
-}
-
-#ctrl-z {
-    background-image: url(../images/ctrl+z.png);
-}
-
-#alt-shift-tab {
-    background-image: url(../images/alt+shift+tab.png);
-} */
-
 .shortcut-card {
     display: flex;
     flex-direction: column;
@@ -195,9 +146,6 @@ nav ul li {
     border: 1px solid;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 20px;
-    /* position: relative; */
-    /* transition: 0.3s; */
-    /* transition-property: transform; */
 }
 
 .shortcut-card-small {
@@ -210,58 +158,14 @@ nav ul li {
     border: 1px solid;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 20px;
-    /* position: relative; */
-    /* transition: 0.3s; */
-    /* transition-property: transform; */
 }
 
 .shortcut-card p, .shortcut-card-small p {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 1px;
+    padding: 0px 15px;
 }
-
-/* .shortcut-card:nth-of-type(1n) h3 {
-    color: #D852A6;
-}
-.shortcut-card:nth-of-type(2n) h3 {
-    color: #abd43b;
-}
-.shortcut-card:nth-of-type(3n) h3 {
-    color: #04c6fc;
-}
-
-.shortcut-card:nth-of-type(n+1) p {
-    color: #04c6fc;
-}
-.shortcut-card:nth-of-type(2n+2) p {
-    color: #D852A6;
-}
-.shortcut-card:nth-of-type(3n+3) p {
-    color: #abd43b;
-}
-div.shortcut-card:nth-of-type(n+1) {
-    border: 2px solid #abd43b;
-}
-div.shortcut-card:nth-of-type(2n+2) {
-    border: 2px solid #04c6fc;
-}
-div.shortcut-card:nth-of-type(3n+3) {
-    border: 2px solid #D852A6;
-} */
-
-
-/* .shortcut-card-img {
-    width: 97.5%;
-    height: 180px;
-    flex-shrink: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    padding: 2px;
-    background-color: #17181C;
-} */
 
 .shortcut-card h3, .shortcut-card-small h3 {
     text-align: center;
