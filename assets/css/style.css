@@ -1,3 +1,4 @@
+/* Remove default formatting from the page */
 * {
     margin: 0;
     padding: 0;
@@ -6,36 +7,44 @@
     list-style-type: none;
 }
 
+/* Add default formatting to body of page */
 body {
     font-family: Titillium, sans-serif;
     font-weight: 300;
     background-color: #292B38;
     color: #04c6fc;
 }
+
+/* Add color and font size to article copy which are all paragraphs within divs */
 div p {
     color: #b4b4b4;
     font-size: large;
 }
 
+/* Makes the nav bar persisit even when a user scrolls down the page */
 #fixed-top {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
+/* colors font awesome elements in the header and footer*/
 .fafa-color {
     color: #04c6fc;
 }
 
+/* identify which current nav bar hyperlink is being displayed on the screen */
 .active {
     font-weight: 700;
 }
 
+/* adds underline to nav bar link that is being hovered over */
 li:hover {
     text-decoration: underline;
     font-weight: 700;
 }
 
+/* formats nav bar and footer elements */
 nav,
 footer,
 nav li,
@@ -45,11 +54,12 @@ footer li {
     text-align: center;
 }
 
+/* hover effect on footer elements */
 footer li:hover {
     transform: scale(1.5);
 }
 
-/* taken from https://codepen.io/giumagnani/pen/jBNJKw */
+/* taken from https://codepen.io/giumagnani/pen/jBNJKw.  used to make button shapes and button content */
 .key-button {
     box-sizing: border-box;
     line-height: 80px;
@@ -67,6 +77,7 @@ footer li:hover {
     display: inline-block;
   }
 
+  /* for the funtion keys on the keyboard as some keys need to be wider than others such as Ctrl, Tab,  */
   .widekey-button {
     box-sizing: border-box;
     line-height: 80px;
@@ -84,6 +95,8 @@ footer li:hover {
     display: inline-block;
   }
 
+/* Styles the + key.  The + key is used to show that more than 1 key needs to be 
+pressed simultaneously to another key to get the desired result */
 .key-addition {
     line-height: 40px;
     font-size: 45px;
@@ -93,6 +106,7 @@ footer li:hover {
     text-align: center;
   }
 
+/* facilitate the responsiveness of the nav elements in the nav container */
 .nav-flex {
     display: flex;
     justify-content: space-around;
@@ -101,6 +115,7 @@ footer li:hover {
     z-index: 2;
 }
 
+/* facilitate the responsiveness of the footer elements in the footer container */
 .foot-flex {
     display: flex;
     justify-content: space-around;
@@ -108,21 +123,25 @@ footer li:hover {
     flex-wrap: wrap;
 }
 
+/* ensures the footer persists, no matter where the user has scrolled to on the page */
 #fixed-bottom {
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
+/* facilitate the responsiveness of the logo in the nav container */
 .logo {
     flex-grow: 1;
 }
 
+/* facilitate the responsiveness of the list elements in the nav container */
 nav ul li {
     min-width: 100px;
     flex-grow: 1;
 }
 
+/* styles the homepage hero image */
 #home-page {
     width: 100%;
     min-height: 555px;
@@ -132,10 +151,12 @@ nav ul li {
     background-image: url("../images/black-blue-keyb.png");
 }
 
+/* styles the register page h2 element */
 #register-page h2 {
     font-size: large;
 }
 
+/* styles the larger shortcut articles for size and responsveness */
 .shortcut-card {
     display: flex;
     flex-direction: column;
@@ -148,6 +169,7 @@ nav ul li {
     margin: 20px;
 }
 
+/* styles the shorter shortcut articles for size and responsveness */
 .shortcut-card-small {
     display: flex;
     flex-direction: column;
@@ -160,6 +182,7 @@ nav ul li {
     margin: 20px;
 }
 
+/* styles the text in paragraph elements in the shortcut cards */
 .shortcut-card p, .shortcut-card-small p {
     text-align: center;
     margin-top: 15px;
@@ -167,16 +190,19 @@ nav ul li {
     padding: 0px 15px;
 }
 
+/* styles the text in h3 elements in the shortcut cards */
 .shortcut-card h3, .shortcut-card-small h3 {
     text-align: center;
     margin: 10%;
     font-size: x-large;
 }
 
+
 #shortcuts {
     padding-bottom: 40px;
 }
 
+/* style the article container for width */
 .shortcut-container {
     max-width: 1200px;
     padding: 0 0px;
@@ -184,6 +210,7 @@ nav ul li {
     width: 100%;
 }
 
+/* Add resonsiveness to the article container on index.html */
 .add-flex {
     display: flex;
     flex-direction: column;
@@ -191,6 +218,7 @@ nav ul li {
     justify-content: center;
 }
 
+/* Style h2 and h4 in the index.html */
 .section-header {
     background-color: #292B38;
     margin: 10px 0;
@@ -202,6 +230,7 @@ nav ul li {
     line-height: 50px;
 }
 
+/* facilitate responsiveness of table on refferences.html */
 .shortcuts-content {
     display: flex;
     flex-direction: row;
@@ -210,6 +239,7 @@ nav ul li {
     background: #292B38;
 }
 
+/* provide consistent style to the forms on register.html and login-page.html  */
 .reg-form {
     width: 250px;
     height: 400px;
@@ -219,15 +249,16 @@ nav ul li {
     margin: 0 auto;
 }
 
+.reg-form div {
+    margin: 20px
+}
+
 #login {
     margin-top: 10%;
     height: 300px;
 }
 
-.reg-form div {
-    margin: 20px
-}
-
+/* styles the 3 buttons on login-page.html and register.html for consistency */
 .submit-button {
     color: #292B38 ;
     background-color: #04c6fc;
@@ -237,6 +268,7 @@ nav ul li {
     display: block;
 }
 
+/* Styles kbd elements with consistent color, shape and style on index.html and references.html */
 kbd {
     background-color: #eee;
     border-radius: 3px;
@@ -255,6 +287,7 @@ kbd {
     margin-bottom: 70px;
 }
 
+/* styles input elements on register.html and login-page.html */
 input {
     border: 1px solid;
     height: 30px;
@@ -285,11 +318,13 @@ td:nth-of-type(odd) {
     text-align: center;
 }
 
+/* Ensures the table in references.html are responsive */
 table tr {
     display: flex;
     width: 100%;  
 }
 
+/* Styles the table on references.html so that it occupies 50% of the screen */
 table td,
 table th {
     flex-basis: 50%;

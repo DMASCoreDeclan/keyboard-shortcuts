@@ -7,11 +7,11 @@ The live link can be found here - [Keyboard Shortcuts]( https://dmascoredeclan.g
 The site has 5 pages.  Only 4 of the pages are visible from the Nav Bar.  
 dummy-page.html, simulates someone leaving the site after REGISTERING and clicking on an email verification link to be brought back to the site to LOGIN.
 
-I wanted the site to be a bit whimsical and playful in terms of colours and I wanted to demonstrate my ability to make the site responsive.
+I wanted to demonstrate my ability to make the site responsive.  
 
 What I learned from this project is that DESIGN is the key to rapid development.  Once you know what you're trying to achieve, its much easier to code the HTML and CSS.  I also learned, keep it simple.
 
-The last update to this file was: **June 12th, 2023**
+The last update to this file was: **October 9th, 2023**
 
 ## Site Owner Goals 
 - To provide the user with information about how to use static Keyboard Shortcuts instead of using a Mouse and Screen. 
@@ -36,7 +36,7 @@ The last update to this file was: **June 12th, 2023**
 I wanted the Hero image to help Users equate the physical keyboard with the intended Shortcut.  I used screenshots of specific part of the Hero image to visually demonstrate the shortcut and then repeated the shortcut with keylike buttons, styled with CSS.  This allowed the Shortcuts page to be more densely populated with tips by only showing keylike buttons instead of having to create screenshots for subsequent shortcuts.
 
 ### Colours
-The colour scheme of the website is bubble-gum pink, lime green and light blue.  These colours represent playfulness.  I wanted fixed Nav-Bars and Footers to facilitate constant easy navigation.
+The colour scheme of the website has been changed from the original florescent colours to more conservative and darker colours of Black, Grey and Blue.  I wanted fixed Nav-Bars and Footers to facilitate constant and easy navigation.
 
 ### Fonts
 The Titillium Web font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I used Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
@@ -71,7 +71,7 @@ This site has a home page that gives a taste of they types of screenshots that a
 
 ### The Landing Page Image
  - The landing page includes a wonderfully playful image of a keyboard and six articles with a catchy phrase, a colourful shortcut image and text describing in words how to use the shortcut.  The purpose was to link the idea of the keyboard with the shortcut, then introduce the standard symbology of keyboard shortcuts so that in the Shortcuts page, the symbology could be used exclusively.
- - The CSS nth-of-type was used to cycle through pink, blue and green for the Heading, Content and Border
+ - Originally, the CSS nth-of-type was used to cycle through pink, blue and green for the Heading, Content and Border.  Based on feedback recieved its been redesigned with more conservative blue and black.  
 
 ### Register
  - a simple four field input form, styled consistent with the Home page using html validation.
@@ -97,10 +97,9 @@ This site has a home page that gives a taste of they types of screenshots that a
 - A CONTRIBUTE page that allows registered users to add a shortcut that would remain on the home page until its displaced by 6 more recent contributions.
 
 
-
-
-
 ## Keyboard-Shortcuts Validations:
+Original colours were: [Webaim](https://webaim.org/resources/contrastchecker/?fcolor=ABD43B&bcolor=D852A6)
+The revised color scheme conforms with [Webaim](https://webaim.org/resources/contrastchecker/?fcolor=04C6FC&bcolor=292B38)
 ![Am I Responsive](/.devcontainer/docs/README-images/kbs-am-i-responsive.png)
 
 
@@ -115,54 +114,23 @@ This site has a home page that gives a taste of they types of screenshots that a
 The colour pickers support these colours working together and were colour picked from the original HERO Keyboard Image.  
 
 ### HTML Validation Results:
-This is my Code Institute Project 1 assignment.  This sites 5 pages have been validated with (https://validator.w3.org/).  
-
-<details> 
-<summary>index.html</summary>  
-
-![Index Score](/.devcontainer/docs/README-images/kbs-index-validation.png) 
-</details> 
 
 
-<details>
-<summary>register.html</summary>
-
-![register](/.devcontainer/docs/README-images/kbs-register-validation.png)
-</details>
-
-<details>
-<summary>login-page.html</summary>
-
-![login-page](/.devcontainer/docs/README-images/kbs-login-page-validation.png)
-</details>
-
-<details>
-<summary>dummy-page.html</summary>
-
-![dummy-page](/.devcontainer/docs/README-images/kbs-dummy-page-validation.png)
-</details>
-
-<details>
-<summary>references.html</summary>
-
-![references](/.devcontainer/docs/README-images/kbs-references-validation.png)
-</details>
-
-
-### CSS Validation Results:
-
-Here are the results for the CSS Validation: 
-
-<details>
-<summary>CSS</summary>
-
-![CSS](/.devcontainer/docs/README-images/kbs-css-validation.png)
-</details>
+[Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmascoredeclan.github.io%2Fkeyboard-shortcuts%2F)
 
 
 ## Testing
 Manual testing has enusred that the FORMs work at all viewport sizes and that HOVERing on the footer elements works when there is a seperate physical keyboard, (HOVERing does not feature with touch screens).  
 Tests were carried out on Chrome, Bing, Firefox at multiple different viewport sizes. 
+
+[Am I responsive](https://ui.dev/amiresponsive?url=https://dmascoredeclan.github.io/keyboard-shortcuts/)
+
+[Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fdmascoredeclan.github.io%2Fkeyboard-shortcuts%2F)
+
+This sites 5 pages have been validated with (https://validator.w3.org/).  
+[The W3C HTML Validation Service results:](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fdmascoredeclan.github.io%2Fkeyboard-shortcuts%2F)
+
+[The W3C CSS Validation Service results:](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdmascoredeclan.github.io%2Fkeyboard-shortcuts%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)
 
 ## Bugs
 There are no remaining bugs as far as I can identify.  Bugs that arose throughout were primarily around the use of FLEX, which took me 2 weeks to conquer.  Other bugs were, the incorrect relative referencing and incorrect case sensitivity for the PNGs in the site.
