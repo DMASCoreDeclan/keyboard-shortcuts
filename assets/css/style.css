@@ -267,6 +267,12 @@ to ensure max viewport space is used and remains responsive */
     padding: 30px;
 }
 
+form div h4{
+    font-size: xx-large;
+    text-align: center;
+    font-size: 30px;
+}
+
 input {
     width: 100%
 }
