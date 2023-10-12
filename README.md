@@ -11,7 +11,7 @@ I wanted to demonstrate my ability to make the site responsive.
 
 What I learned from this project is that DESIGN is the key to rapid development.  Once you know what you're trying to achieve, its much easier to code the HTML and CSS.  I also learned, keep it simple.
 
-The last update to this file was: **October 9th, 2023**
+The last update to this file was: **October 12th, 2023**
 
 ## Site Owner Goals 
 - To provide the user with information about how to use static Keyboard Shortcuts instead of using a Mouse and Screen. 
@@ -137,7 +137,7 @@ There are no remaining bugs as far as I can identify.  Bugs that arose throughou
 ## Credits:
 ### Content
 - Table contents for references.html were taken from: https://www.computerhope.com/shortcut.htm
-- The Hero Image was taken from https://matrixkeyboards.com
+- The Hero Image was taken from https://matrixkeyboards.com/products/lirik-ultimate-bundle
 ### Other Resources Used
 - [Love running and Coders Coffee House](https://codeinstitute.net/ie/)
 - [Content and Inspiration](https://natureofwriting.com/courses/essay-writing/lessons/the-writing-process/topic/keyboard-shortcuts/)

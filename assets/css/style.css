@@ -267,6 +267,7 @@ to ensure max viewport space is used and remains responsive */
     padding: 30px;
 }
 
+/* style h4 in forms for login-page and register page */
 form div h4{
     font-size: xx-large;
     text-align: center;
