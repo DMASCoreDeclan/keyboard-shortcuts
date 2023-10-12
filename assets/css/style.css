@@ -239,45 +239,36 @@ nav ul li {
     background: #292B38;
 }
 
-/* provide consistent style to the forms on register.html and login-page.html  */
+/* provide consistent style to the form on register.html styling 
+to ensure max viewport space is used and remains responsive */
 .reg-form {
-    /* clear: left; */
     min-width: 50%;
     min-height: 400px;
     border-radius: 24px;
     border: 1px solid;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
-    /* margin: 150px 10% 0 0; */
-    /* color: #fff; */
-    /* background-color: rgba(60, 60, 60, 0.6); */
     max-width: 75%;
-    /* position: absolute; */
     left: 20%;
     padding: 30px;
 }
 
+/* provide consistent style to the form on login-page.html styling 
+to ensure max viewport space is used and remains responsive */
 .login-form {
-    /* clear: left; */
     min-width: 50%;
     min-height: 200px;
     border-radius: 24px;
     border: 1px solid;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
-    /* margin: 150px 10% 0 0; */
-    /* color: #fff; */
-    /* background-color: rgba(60, 60, 60, 0.6); */
     max-width: 75%;
-    /* position: absolute; */
     left: 20%;
     padding: 30px;
 }
 
 input {
     width: 100%
-    /* min-width: 50px; */
-    
 }
 
 
@@ -361,6 +352,10 @@ table tr {
 table td,
 table th {
     flex-basis: 50%;
+}
+
+table {
+    margin-bottom: 58px;
 }
 
 /* Media query for screens smaller than 600px */
