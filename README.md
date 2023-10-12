@@ -33,7 +33,7 @@ The last update to this file was: **October 9th, 2023**
 ## Design
 
 ### Imagery
-I wanted the Hero image to help Users equate the physical keyboard with the intended Shortcut.  I used screenshots of specific part of the Hero image to visually demonstrate the shortcut and then repeated the shortcut with keylike buttons, styled with CSS.  This allowed the Shortcuts page to be more densely populated with tips by only showing keylike buttons instead of having to create screenshots for subsequent shortcuts.
+I wanted the Hero image to help Users equate the physical keyboard with the intended Shortcut.  I originally used screenshots of specific part of the Hero image to visually demonstrate but the quality of the screenshot was not good enough.  I decided to contruct keys with code using [CSS Keyboard buttons](https://codepen.io/giumagnani/pen/jBNJKw).  For the shortcuts on the shortcut page I used the \<kbd> element instead of CSS.  This allowed the Shortcuts page to be more densely populated with tips by only showing keylike buttons instead of having to create CSS for subsequent shortcuts.
 
 ### Colours
 The colour scheme of the website has been changed from the original florescent colours to more conservative and darker colours of Black, Grey and Blue.  I wanted fixed Nav-Bars and Footers to facilitate constant and easy navigation.
@@ -60,12 +60,12 @@ Wireframes were produced using Balsamiq.
 
 
 ## Keyboard-Shortcuts Features:
-This site has a home page that gives a taste of they types of screenshots that are helpful.  However, it encourages you to Contribute by having a Register and a Login page.  Features that I would like to have but am currently unable to code are the ability for someone to contribute a Shortcut Tip through a form that would be displayed on the HOME page in the format of the current Home Page.
+This site has a home page that gives a taste of the types of screenshots that are helpful.  However, it encourages you to Contribute by having a Register and a Login page.  Features that I would like to have but am currently unable to code are the ability for someone to contribute a Shortcut Tip through a form that would be displayed on the HOME page in the format of the current Home Page.
 
 ### Navigation
 
  - The fully responsive navigation bar includes links to the Logo, Home, Register, Login and Shortcuts on separate pages.
- - All pages have a Fixed Nav-Bar and Footer.  The background space between the top and bottom remains white with the exception of the Hero image.
+ - All pages have a Fixed Nav-Bar and Footer.
  - The current page is denoted by emphasising the active portion of the Nav-Bar
  - When hovering over subsequent Page choices, that page link underlines and becomes bold
 
@@ -99,25 +99,19 @@ This site has a home page that gives a taste of they types of screenshots that a
 
 ## Keyboard-Shortcuts Validations:
 Original colours were: [Webaim](https://webaim.org/resources/contrastchecker/?fcolor=ABD43B&bcolor=D852A6)
-The revised color scheme conforms with [Webaim](https://webaim.org/resources/contrastchecker/?fcolor=04C6FC&bcolor=292B38)
 ![Am I Responsive](/.devcontainer/docs/README-images/kbs-am-i-responsive.png)
+
+## Accessibility improvement
+The colour pickers support these colours working together and were colour picked from the original HERO Keyboard Image.  The revised color scheme conforms with [Webaim](https://webaim.org/resources/contrastchecker/?fcolor=04C6FC&bcolor=292B38)
+![Am I Responsive](/.devcontainer/docs/README-images/kbs-am-i-responsive-b&b.png)
+
 
 
 <details> 
 <summary>Lighthouse Score: </summary>  
 
-![Lighthouse Score](/.devcontainer/docs/README-images/kbs-lighthouse-score.png) 
+![Lighthouse Score](/.devcontainer/docs/README-images/kbs-lighthouse-results-b&b.png) 
 </details> 
-
-
-## Accessibility improvement
-The colour pickers support these colours working together and were colour picked from the original HERO Keyboard Image.  
-
-### HTML Validation Results:
-
-
-[Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmascoredeclan.github.io%2Fkeyboard-shortcuts%2F)
-
 
 ## Testing
 Manual testing has enusred that the FORMs work at all viewport sizes and that HOVERing on the footer elements works when there is a seperate physical keyboard, (HOVERing does not feature with touch screens).  
@@ -126,6 +120,11 @@ Tests were carried out on Chrome, Bing, Firefox at multiple different viewport s
 [Am I responsive](https://ui.dev/amiresponsive?url=https://dmascoredeclan.github.io/keyboard-shortcuts/)
 
 [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fdmascoredeclan.github.io%2Fkeyboard-shortcuts%2F)
+
+### HTML Validation Results:
+
+
+[Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdmascoredeclan.github.io%2Fkeyboard-shortcuts%2F)
 
 This sites 5 pages have been validated with (https://validator.w3.org/).  
 [The W3C HTML Validation Service results:](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fdmascoredeclan.github.io%2Fkeyboard-shortcuts%2F)

@@ -241,13 +241,45 @@ nav ul li {
 
 /* provide consistent style to the forms on register.html and login-page.html  */
 .reg-form {
-    width: 250px;
-    height: 400px;
+    /* clear: left; */
+    min-width: 50%;
+    min-height: 400px;
     border-radius: 24px;
     border: 1px solid;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
+    /* margin: 150px 10% 0 0; */
+    /* color: #fff; */
+    /* background-color: rgba(60, 60, 60, 0.6); */
+    max-width: 75%;
+    /* position: absolute; */
+    left: 20%;
+    padding: 30px;
 }
+
+.login-form {
+    /* clear: left; */
+    min-width: 50%;
+    min-height: 200px;
+    border-radius: 24px;
+    border: 1px solid;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    /* margin: 150px 10% 0 0; */
+    /* color: #fff; */
+    /* background-color: rgba(60, 60, 60, 0.6); */
+    max-width: 75%;
+    /* position: absolute; */
+    left: 20%;
+    padding: 30px;
+}
+
+input {
+    width: 100%
+    /* min-width: 50px; */
+    
+}
+
 
 .reg-form div {
     margin: 20px
@@ -266,6 +298,7 @@ nav ul li {
     border-radius: 5px;
     margin: 0 auto;
     display: block;
+    max-width: 100px;
 }
 
 /* Styles kbd elements with consistent color, shape and style on index.html and references.html */
